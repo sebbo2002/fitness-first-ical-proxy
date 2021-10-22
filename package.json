@@ -1,0 +1,68 @@
+{
+  "author": "Sebastian Pekarek <oojeesheibashumaofie@e.sebbo.net>",
+  "bin": {
+    "fitness-first-ical-proxy": "./dist/bin/start.js"
+  },
+  "bugs": {
+    "url": "https://github.com/sebbo2002/template/issues"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "ical-generator": "^3.0.1"
+  },
+  "description": "Small proxy that provides the course schedule from fitnessfirst.de/kurse as an iCal calendar.",
+  "devDependencies": {
+    "@amanda-mitchell/semantic-release-npm-multiple": "^2.15.0",
+    "@qiwi/semantic-release-gh-pages-plugin": "^5.1.1",
+    "@sebbo2002/semantic-release-docker": "^1.0.0-develop.1",
+    "@semantic-release/changelog": "^6.0.0",
+    "@semantic-release/exec": "^6.0.1",
+    "@semantic-release/git": "^10.0.0",
+    "@types/express": "^4.17.13",
+    "@types/luxon": "^2.0.5",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^16.11.3",
+    "@typescript-eslint/eslint-plugin": "^4.32.0",
+    "@typescript-eslint/parser": "^4.32.0",
+    "dayjs": "^1.10.7",
+    "eslint": "^7.32.0",
+    "eslint-plugin-jsonc": "^1.7.0",
+    "license-checker": "^25.0.1",
+    "mocha": "^9.1.2",
+    "mochawesome": "^6.2.2",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "nyc": "^15.1.0",
+    "rrule": "^2.6.8",
+    "semantic-release-license": "^1.0.3",
+    "source-map-support": "^0.5.20",
+    "ts-node": "^10.2.1",
+    "typedoc": "^0.22.4",
+    "typescript": "^4.4.3"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "files": [
+    "/dist"
+  ],
+  "homepage": "https://github.com/sebbo2002/fitness-first-ical-proxy#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "@sebbo2002/fitness-first-ical-proxy",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebbo2002/fitness-first-ical-proxy.git"
+  },
+  "scripts": {
+    "build": "tsc && chmod +x ./dist/bin/*.js",
+    "build-all": "./.github/workflows/build.sh",
+    "coverage": "nyc mocha",
+    "develop": "ts-node ./src/bin/start.ts",
+    "license-check": "license-checker --production --summary",
+    "lint": "eslint . --ext .ts,.json",
+    "start": "node ./dist/bin/start.js",
+    "test": "mocha"
+  },
+  "version": "1.0.0-test.1"
+}
