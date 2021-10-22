@@ -10,6 +10,12 @@ Small proxy that provides the course schedule from fitnessfirst.de/kurse as an i
 	npm i -g @sebbo2002/fitness-fitst-ical-proxy
     fitness-first-ical-proxy
 
+## 📑 Example
+
+```
+http://localhost:8080/ical?club_id=0024&category_id=436
+```
+
 
 ## 🙆🏼‍♂️ Copyright and license
 
