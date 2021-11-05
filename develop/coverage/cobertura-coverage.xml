@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage lines-valid="39" lines-covered="34" line-rate="0.8718" branches-valid="10" branches-covered="7" branch-rate="0.7" timestamp="1634924514260" complexity="0" version="0.1">
+<coverage lines-valid="39" lines-covered="34" line-rate="0.8718" branches-valid="10" branches-covered="7" branch-rate="0.7" timestamp="1636138117627" complexity="0" version="0.1">
   <sources>
     <source>/home/runner/work/fitness-first-ical-proxy/fitness-first-ical-proxy</source>
   </sources>
@@ -32,9 +32,9 @@
             <line number="37" hits="20"/>
           </lines>
         </method>
-        <method name="(anonymous_15)" hits="319" signature="()V">
+        <method name="(anonymous_15)" hits="324" signature="()V">
           <lines>
-            <line number="38" hits="319"/>
+            <line number="38" hits="324"/>
           </lines>
         </method>
         <method name="(anonymous_16)" hits="4" signature="()V">
@@ -62,9 +62,9 @@
             <line number="77" hits="1"/>
           </lines>
         </method>
-        <method name="(anonymous_22)" hits="75" signature="()V">
+        <method name="(anonymous_22)" hits="76" signature="()V">
           <lines>
-            <line number="80" hits="75"/>
+            <line number="80" hits="76"/>
           </lines>
         </method>
         <method name="(anonymous_23)" hits="1" signature="()V">
@@ -93,11 +93,11 @@
         <line number="35" hits="7" branch="false"/>
         <line number="37" hits="7" branch="true" condition-coverage="50% (1/2)"/>
         <line number="38" hits="20" branch="false"/>
-        <line number="39" hits="319" branch="true" condition-coverage="100% (2/2)"/>
-        <line number="40" hits="6" branch="false"/>
-        <line number="43" hits="313" branch="false"/>
-        <line number="44" hits="313" branch="false"/>
-        <line number="46" hits="313" branch="false"/>
+        <line number="39" hits="324" branch="true" condition-coverage="100% (2/2)"/>
+        <line number="40" hits="2" branch="false"/>
+        <line number="43" hits="322" branch="false"/>
+        <line number="44" hits="322" branch="false"/>
+        <line number="46" hits="322" branch="false"/>
         <line number="59" hits="1" branch="false"/>
         <line number="63" hits="4" branch="true" condition-coverage="100% (2/2)"/>
         <line number="64" hits="1" branch="false"/>
@@ -109,7 +109,7 @@
         <line number="77" hits="1" branch="false"/>
         <line number="78" hits="1" branch="false"/>
         <line number="80" hits="1" branch="false"/>
-        <line number="81" hits="75" branch="false"/>
+        <line number="81" hits="76" branch="false"/>
         <line number="84" hits="1" branch="false"/>
         <line number="85" hits="1" branch="false"/>
         <line number="86" hits="1" branch="true" condition-coverage="50% (1/2)"/>
