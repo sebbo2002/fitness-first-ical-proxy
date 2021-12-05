@@ -1,3 +1,10 @@
+# [1.0.0-develop.3](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v1.0.0-develop.2...v1.0.0-develop.3) (2021-12-05)
+
+
+### Bug Fixes
+
+* **CI:** Fix DockerHub container release ([01b7534](https://github.com/sebbo2002/fitness-first-ical-proxy/commit/01b753406d1f1ef24a949c7d7b946d99b779d013))
+
 # [1.0.0-develop.2](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v1.0.0-develop.1...v1.0.0-develop.2) (2021-11-05)
 
 # 1.0.0-develop.1 (2021-10-22)
