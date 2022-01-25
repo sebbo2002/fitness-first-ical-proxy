@@ -31,7 +31,7 @@
     "mocha": "^9.1.2",
     "mochawesome": "^6.2.2",
     "moment": "^2.29.1",
-    "moment-timezone": "^0.5.33",
+    "moment-timezone": "^0.5.34",
     "nyc": "^15.1.0",
     "rrule": "^2.6.8",
     "semantic-release-license": "^1.0.3",
