@@ -1,3 +1,10 @@
+# [1.1.0-develop.1](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v1.0.1...v1.1.0-develop.1) (2022-02-28)
+
+
+### Features
+
+* Add "Kinderschwimmen" to Fitness First Gendarmenmarkt ([58462c3](https://github.com/sebbo2002/fitness-first-ical-proxy/commit/58462c34fb003a00a6690a294b5b75a0c1f4ee41))
+
 ## [1.0.1](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v1.0.0...v1.0.1) (2021-12-13)
 
 
