@@ -28,7 +28,7 @@ export interface ResponseCourse {
     category: string;
     level: string;
     club: string;
-    url: string;
+    url: string | null;
     is_cancelled: boolean;
     is_changed: boolean;
 }
