@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage lines-valid="48" lines-covered="35" line-rate="0.7292000000000001" branches-valid="21" branches-covered="9" branch-rate="0.4286" timestamp="1651172902739" complexity="0" version="0.1">
+<coverage lines-valid="48" lines-covered="35" line-rate="0.7292000000000001" branches-valid="21" branches-covered="9" branch-rate="0.4286" timestamp="1651414433471" complexity="0" version="0.1">
   <sources>
     <source>/home/runner/work/fitness-first-ical-proxy/fitness-first-ical-proxy</source>
   </sources>
@@ -37,9 +37,9 @@
             <line number="75" hits="20"/>
           </lines>
         </method>
-        <method name="(anonymous_16)" hits="292" signature="()V">
+        <method name="(anonymous_16)" hits="287" signature="()V">
           <lines>
-            <line number="76" hits="292"/>
+            <line number="76" hits="287"/>
           </lines>
         </method>
         <method name="(anonymous_17)" hits="4" signature="()V">
@@ -107,11 +107,11 @@
         <line number="73" hits="7" branch="false"/>
         <line number="75" hits="7" branch="true" condition-coverage="50% (1/2)"/>
         <line number="76" hits="20" branch="false"/>
-        <line number="77" hits="292" branch="true" condition-coverage="100% (2/2)"/>
-        <line number="78" hits="19" branch="false"/>
-        <line number="81" hits="273" branch="false"/>
-        <line number="82" hits="273" branch="false"/>
-        <line number="84" hits="273" branch="false"/>
+        <line number="77" hits="287" branch="true" condition-coverage="100% (2/2)"/>
+        <line number="78" hits="18" branch="false"/>
+        <line number="81" hits="269" branch="false"/>
+        <line number="82" hits="269" branch="false"/>
+        <line number="84" hits="269" branch="false"/>
         <line number="97" hits="1" branch="false"/>
         <line number="101" hits="4" branch="true" condition-coverage="100% (2/2)"/>
         <line number="102" hits="1" branch="false"/>
