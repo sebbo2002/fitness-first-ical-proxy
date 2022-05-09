@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage lines-valid="48" lines-covered="35" line-rate="0.7292000000000001" branches-valid="21" branches-covered="9" branch-rate="0.4286" timestamp="1651794738140" complexity="0" version="0.1">
+<coverage lines-valid="48" lines-covered="35" line-rate="0.7292000000000001" branches-valid="21" branches-covered="9" branch-rate="0.4286" timestamp="1652116156058" complexity="0" version="0.1">
   <sources>
     <source>/home/runner/work/fitness-first-ical-proxy/fitness-first-ical-proxy</source>
   </sources>
@@ -32,14 +32,14 @@
             <line number="72" hits="7"/>
           </lines>
         </method>
-        <method name="(anonymous_15)" hits="20" signature="()V">
+        <method name="(anonymous_15)" hits="21" signature="()V">
           <lines>
-            <line number="75" hits="20"/>
+            <line number="75" hits="21"/>
           </lines>
         </method>
-        <method name="(anonymous_16)" hits="289" signature="()V">
+        <method name="(anonymous_16)" hits="305" signature="()V">
           <lines>
-            <line number="76" hits="289"/>
+            <line number="76" hits="305"/>
           </lines>
         </method>
         <method name="(anonymous_17)" hits="4" signature="()V">
@@ -67,9 +67,9 @@
             <line number="115" hits="1"/>
           </lines>
         </method>
-        <method name="(anonymous_23)" hits="71" signature="()V">
+        <method name="(anonymous_23)" hits="73" signature="()V">
           <lines>
-            <line number="118" hits="71"/>
+            <line number="118" hits="73"/>
           </lines>
         </method>
         <method name="(anonymous_24)" hits="1" signature="()V">
@@ -106,12 +106,12 @@
         <line number="72" hits="1" branch="false"/>
         <line number="73" hits="7" branch="false"/>
         <line number="75" hits="7" branch="true" condition-coverage="50% (1/2)"/>
-        <line number="76" hits="20" branch="false"/>
-        <line number="77" hits="289" branch="true" condition-coverage="100% (2/2)"/>
-        <line number="78" hits="18" branch="false"/>
-        <line number="81" hits="271" branch="false"/>
-        <line number="82" hits="271" branch="false"/>
-        <line number="84" hits="271" branch="false"/>
+        <line number="76" hits="21" branch="false"/>
+        <line number="77" hits="305" branch="true" condition-coverage="100% (2/2)"/>
+        <line number="78" hits="17" branch="false"/>
+        <line number="81" hits="288" branch="false"/>
+        <line number="82" hits="288" branch="false"/>
+        <line number="84" hits="288" branch="false"/>
         <line number="97" hits="1" branch="false"/>
         <line number="101" hits="4" branch="true" condition-coverage="100% (2/2)"/>
         <line number="102" hits="1" branch="false"/>
@@ -123,7 +123,7 @@
         <line number="115" hits="1" branch="false"/>
         <line number="116" hits="1" branch="false"/>
         <line number="118" hits="1" branch="false"/>
-        <line number="119" hits="71" branch="false"/>
+        <line number="119" hits="73" branch="false"/>
         <line number="122" hits="1" branch="false"/>
         <line number="123" hits="1" branch="false"/>
         <line number="124" hits="1" branch="true" condition-coverage="50% (1/2)"/>
