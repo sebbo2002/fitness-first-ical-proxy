@@ -1,3 +1,21 @@
+## [1.1.1-develop.13](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v1.1.1-develop.12...v1.1.1-develop.13) (2022-05-14)
+
+## [1.1.1-develop.12](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v1.1.1-develop.11...v1.1.1-develop.12) (2022-05-13)
+
+## [1.1.1-develop.11](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v1.1.1-develop.10...v1.1.1-develop.11) (2022-05-09)
+
+## [1.1.1-develop.10](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v1.1.1-develop.9...v1.1.1-develop.10) (2022-05-05)
+
+## [1.1.1-develop.9](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v1.1.1-develop.8...v1.1.1-develop.9) (2022-05-05)
+
+## [1.1.1-develop.8](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v1.1.1-develop.7...v1.1.1-develop.8) (2022-05-02)
+
+## [1.1.1-develop.7](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v1.1.1-develop.6...v1.1.1-develop.7) (2022-05-01)
+
+## [1.1.1-develop.6](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v1.1.1-develop.5...v1.1.1-develop.6) (2022-05-01)
+
+## [1.1.1-develop.5](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v1.1.1-develop.4...v1.1.1-develop.5) (2022-04-28)
+
 ## [1.1.1-develop.4](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v1.1.1-develop.3...v1.1.1-develop.4) (2022-04-22)
 
 ## [1.1.1-develop.3](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v1.1.1-develop.2...v1.1.1-develop.3) (2022-04-18)
