@@ -1,3 +1,12 @@
+## [1.1.1-develop.15](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v1.1.1-develop.14...v1.1.1-develop.15) (2022-05-26)
+
+## [1.1.1-develop.14](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v1.1.1-develop.13...v1.1.1-develop.14) (2022-05-20)
+
+
+### Reverts
+
+* Revert "ci: Remove docker setup" ([655068b](https://github.com/sebbo2002/fitness-first-ical-proxy/commit/655068b3b9c6139181ae87421db5f8144fae3e18))
+
 ## [1.1.1-develop.13](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v1.1.1-develop.12...v1.1.1-develop.13) (2022-05-14)
 
 ## [1.1.1-develop.12](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v1.1.1-develop.11...v1.1.1-develop.12) (2022-05-13)
