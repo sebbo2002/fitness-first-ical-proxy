@@ -33,7 +33,7 @@
     "moment": "^2.29.3",
     "moment-timezone": "^0.5.34",
     "nyc": "^15.1.0",
-    "rrule": "^2.6.9",
+    "rrule": "^2.7.0",
     "semantic-release-license": "^1.0.3",
     "source-map-support": "^0.5.21",
     "ts-node": "^10.8.0",
