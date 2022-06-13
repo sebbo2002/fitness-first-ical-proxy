@@ -24,7 +24,7 @@
     "@types/node": "^17.0.31",
     "@typescript-eslint/eslint-plugin": "^5.27.1",
     "@typescript-eslint/parser": "^5.27.1",
-    "dayjs": "^1.11.2",
+    "dayjs": "^1.11.3",
     "eslint": "^8.16.0",
     "eslint-plugin-jsonc": "^2.3.0",
     "license-checker": "^25.0.1",
