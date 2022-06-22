@@ -1,3 +1,25 @@
+# [1.2.0-develop.2](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v1.2.0-develop.1...v1.2.0-develop.2) (2022-06-22)
+
+
+### Bug Fixes
+
+* Fix Kinderschwimmen on thursdays ([53f2fc8](https://github.com/sebbo2002/fitness-first-ical-proxy/commit/53f2fc8e783653a1a41d3ec5df240a0f03d278e0))
+
+# [1.2.0-develop.1](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v1.1.2-develop.4...v1.2.0-develop.1) (2022-06-22)
+
+
+### Features
+
+* Add Kinderschwimmen on Thursday ([052e7d5](https://github.com/sebbo2002/fitness-first-ical-proxy/commit/052e7d5b96fa970f79a76f282269ae2646ac036f))
+
+## [1.1.2-develop.4](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v1.1.2-develop.3...v1.1.2-develop.4) (2022-06-14)
+
+## [1.1.2-develop.3](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v1.1.2-develop.2...v1.1.2-develop.3) (2022-06-13)
+
+## [1.1.2-develop.2](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v1.1.2-develop.1...v1.1.2-develop.2) (2022-06-12)
+
+## [1.1.2-develop.1](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v1.1.1...v1.1.2-develop.1) (2022-06-08)
+
 ## [1.1.1](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v1.1.0...v1.1.1) (2022-05-31)
 
 
