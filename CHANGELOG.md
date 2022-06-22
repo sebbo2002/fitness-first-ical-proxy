@@ -1,3 +1,5 @@
+## [1.2.1-develop.1](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v1.2.0...v1.2.1-develop.1) (2022-06-22)
+
 # [1.2.0](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v1.1.1...v1.2.0) (2022-06-22)
 
 
