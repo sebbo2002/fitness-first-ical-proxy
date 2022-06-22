@@ -1,3 +1,10 @@
+# [1.2.0-develop.2](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v1.2.0-develop.1...v1.2.0-develop.2) (2022-06-22)
+
+
+### Bug Fixes
+
+* Fix Kinderschwimmen on thursdays ([53f2fc8](https://github.com/sebbo2002/fitness-first-ical-proxy/commit/53f2fc8e783653a1a41d3ec5df240a0f03d278e0))
+
 # [1.2.0-develop.1](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v1.1.2-develop.4...v1.2.0-develop.1) (2022-06-22)
 
 
