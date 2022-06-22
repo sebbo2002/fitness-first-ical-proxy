@@ -51,7 +51,7 @@ export default class FitnessFirstIcalProxy {
                         classes.before_noon.push(event);
                     }
                 }
-                if (key.split('_', 2)[1] === 'do') {
+                if (key.split('_', 2)[1] === 'th') {
                     const event = {
                         id: `kinderschwimmen-${key}`,
                         title: 'Kinderschwimmen',
