@@ -22,36 +22,63 @@ export default class FitnessFirstIcalProxy {
         // Kinderschwimmen @ Gendarmenmarkt
         if (params.club_id === '0115' && (params.category_id === '431' || !params.category_id)) {
             Object.entries(response.data.classes).forEach(([key, classes]) => {
-                if (key.split('_', 2)[1] !== 'sa') {
-                    return;
-                }
-
-                const event = {
-                    id: `kinderschwimmen-${key}`,
-                    title: 'Kinderschwimmen',
-                    time: {
-                        from: '09:15:00',
-                        to: '12:15:00'
-                    },
-                    category: 'Aqua',
-                    categoryIcon: 'https://www.fitnessfirst.de/sites/g/files/tbchtk201/files/2020-10/fitness-first-kurse-special.png',
-                    level: 'Alle',
-                    club: 'Berlin - Gendarmenmarkt',
-                    url: null,
-                    calendarUrl: null,
-                    is_cancelled: false,
-                    is_changed: false
-                };
-
-                if (Array.isArray(classes)) {
-                    response.data.classes[key] = {
-                        before_noon: [
-                            event
-                        ]
+                if (key.split('_', 2)[1] === 'sa') {
+                    const event = {
+                        id: `kinderschwimmen-${key}`,
+                        title: 'Kinderschwimmen',
+                        time: {
+                            from: '09:00:00',
+                            to: '12:15:00'
+                        },
+                        category: 'Aqua',
+                        categoryIcon: 'https://www.fitnessfirst.de/sites/g/files/tbchtk201/files/2020-10/fitness-first-kurse-special.png',
+                        level: 'Alle',
+                        club: 'Berlin - Gendarmenmarkt',
+                        url: 'https://www.fitnessfirst.de/news/kinderschwimmen-1635593849',
+                        calendarUrl: null,
+                        is_cancelled: false,
+                        is_changed: false
                     };
-                } else {
-                    classes.before_noon = classes.before_noon || [];
-                    classes.before_noon.push(event);
+
+                    if (Array.isArray(classes)) {
+                        response.data.classes[key] = {
+                            before_noon: [
+                                event
+                            ]
+                        };
+                    } else {
+                        classes.before_noon = classes.before_noon || [];
+                        classes.before_noon.push(event);
+                    }
+                }
+                if (key.split('_', 2)[1] === 'do') {
+                    const event = {
+                        id: `kinderschwimmen-${key}`,
+                        title: 'Kinderschwimmen',
+                        time: {
+                            from: '15:00:00',
+                            to: '16:30:00'
+                        },
+                        category: 'Aqua',
+                        categoryIcon: 'https://www.fitnessfirst.de/sites/g/files/tbchtk201/files/2020-10/fitness-first-kurse-special.png',
+                        level: 'Alle',
+                        club: 'Berlin - Gendarmenmarkt',
+                        url: 'https://www.fitnessfirst.de/news/kinderschwimmen-1635593849',
+                        calendarUrl: null,
+                        is_cancelled: false,
+                        is_changed: false
+                    };
+
+                    if (Array.isArray(classes)) {
+                        response.data.classes[key] = {
+                            before_noon: [
+                                event
+                            ]
+                        };
+                    } else {
+                        classes.before_noon = classes.before_noon || [];
+                        classes.before_noon.push(event);
+                    }
                 }
             });
         }
