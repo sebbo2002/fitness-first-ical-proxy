@@ -3,6 +3,7 @@
 
 import express, {Express} from 'express';
 import {Server} from 'http';
+import FitnessFirstIcalProxy from '../lib/index.js';
 
 
 class AppServer {
@@ -28,14 +29,14 @@ class AppServer {
             res.send('pong');
         });
 
-        // add additional routes
+        this.app.get('/ical', (req, res) => {
+            FitnessFirstIcalProxy.request(req.query)
+                .then(calendar => calendar.serve(res));
+        });
     }
 
     async stop() {
         await new Promise(cb => this.server.close(cb));
-
-        // await db.close() if we have a db connection in this app
-        // await other things we should cleanup nicely
 
         process.exit();
     }
