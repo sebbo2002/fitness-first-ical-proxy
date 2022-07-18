@@ -1,7 +1,7 @@
 'use strict';
 
-import FitnessFirstIcalProxy from '../../src/lib';
-import assert = require('assert');
+import FitnessFirstIcalProxy from '../../src/lib/index.js';
+import assert from 'assert';
 
 describe('FitnessFirstIcalProxy', function () {
     this.timeout(1000 * 10);

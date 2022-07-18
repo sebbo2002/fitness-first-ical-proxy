@@ -3,7 +3,7 @@
 
 import express, {Express} from 'express';
 import {Server} from 'http';
-import FitnessFirstIcalProxy from '../lib';
+import FitnessFirstIcalProxy from '../lib/index.js';
 
 
 class AppServer {
