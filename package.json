@@ -24,6 +24,7 @@
     "@types/node": "^18.0.3",
     "@typescript-eslint/eslint-plugin": "^5.27.1",
     "@typescript-eslint/parser": "^5.27.1",
+    "c8": "^7.11.3",
     "dayjs": "^1.11.3",
     "eslint": "^8.18.0",
     "eslint-plugin-jsonc": "^2.3.1",
@@ -58,7 +59,7 @@
   "scripts": {
     "build": "tsc && chmod +x ./dist/bin/*.js",
     "build-all": "./.github/workflows/build.sh",
-    "coverage": "nyc mocha",
+    "coverage": "c8 mocha",
     "develop": "ts-node ./src/bin/start.ts",
     "license-check": "license-checker --production --summary",
     "lint": "eslint . --ext .ts,.json",
