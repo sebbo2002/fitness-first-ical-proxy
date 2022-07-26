@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage lines-valid="248" lines-covered="94" line-rate="0.379" branches-valid="23" branches-covered="16" branch-rate="0.6956" timestamp="1658790137432" complexity="0" version="0.1">
+<coverage lines-valid="248" lines-covered="94" line-rate="0.379" branches-valid="23" branches-covered="16" branch-rate="0.6956" timestamp="1658858543623" complexity="0" version="0.1">
   <sources>
     <source>/home/runner/work/fitness-first-ical-proxy/fitness-first-ical-proxy</source>
   </sources>
@@ -199,22 +199,22 @@
             <line number="101" hits="7" branch="false"/>
             <line number="102" hits="7" branch="true" condition-coverage="50% (1/2)"/>
             <line number="103" hits="20" branch="true" condition-coverage="100% (1/1)"/>
-            <line number="104" hits="292" branch="true" condition-coverage="100% (1/1)"/>
-            <line number="105" hits="21" branch="false"/>
-            <line number="106" hits="21" branch="false"/>
-            <line number="107" hits="271" branch="true" condition-coverage="100% (1/1)"/>
-            <line number="108" hits="271" branch="false"/>
-            <line number="109" hits="271" branch="false"/>
-            <line number="110" hits="271" branch="false"/>
-            <line number="111" hits="271" branch="false"/>
-            <line number="112" hits="271" branch="false"/>
-            <line number="113" hits="271" branch="false"/>
-            <line number="114" hits="271" branch="false"/>
-            <line number="115" hits="271" branch="false"/>
-            <line number="116" hits="271" branch="false"/>
-            <line number="117" hits="271" branch="false"/>
-            <line number="118" hits="271" branch="false"/>
-            <line number="119" hits="271" branch="false"/>
+            <line number="104" hits="300" branch="true" condition-coverage="100% (1/1)"/>
+            <line number="105" hits="25" branch="false"/>
+            <line number="106" hits="25" branch="false"/>
+            <line number="107" hits="275" branch="true" condition-coverage="100% (1/1)"/>
+            <line number="108" hits="275" branch="false"/>
+            <line number="109" hits="275" branch="false"/>
+            <line number="110" hits="275" branch="false"/>
+            <line number="111" hits="275" branch="false"/>
+            <line number="112" hits="275" branch="false"/>
+            <line number="113" hits="275" branch="false"/>
+            <line number="114" hits="275" branch="false"/>
+            <line number="115" hits="275" branch="false"/>
+            <line number="116" hits="275" branch="false"/>
+            <line number="117" hits="275" branch="false"/>
+            <line number="118" hits="275" branch="false"/>
+            <line number="119" hits="275" branch="false"/>
             <line number="120" hits="20" branch="false"/>
             <line number="121" hits="7" branch="false"/>
             <line number="122" hits="1" branch="false"/>
@@ -241,7 +241,7 @@
             <line number="143" hits="1" branch="false"/>
             <line number="144" hits="1" branch="false"/>
             <line number="145" hits="1" branch="true" condition-coverage="100% (1/1)"/>
-            <line number="146" hits="71" branch="false"/>
+            <line number="146" hits="73" branch="false"/>
             <line number="147" hits="1" branch="false"/>
             <line number="148" hits="1" branch="false"/>
             <line number="149" hits="1" branch="true" condition-coverage="100% (1/1)"/>
