@@ -9,6 +9,7 @@ describe('FitnessFirstIcalProxy', function () {
     describe('request()', function() {
         it('should work without error', async function () {
             const calendar = await FitnessFirstIcalProxy.request({
+                club_id: '0115',
                 category_id: '431'
             });
 
