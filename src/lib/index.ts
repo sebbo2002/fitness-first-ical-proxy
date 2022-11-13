@@ -10,14 +10,13 @@ export default class FitnessFirstIcalProxy {
     }
 
     static async getCourses(params: RequestParams): Promise<ResponseClasses> {
-        const q = stringify({
-            club_id: this.paramToString(params.club_id),
-            category_id: this.paramToString(params.category_id),
-            class_id: this.paramToString(params.class_id),
-            daytime_id: this.paramToString(params.daytime_id),
-        });
+        const url = 'https://www.fitnessfirst.de/kurse/kursplan/search/' +
+            this.paramToString(params.club_id) + '/' +
+            this.paramToString(params.category_id) + '/' +
+            this.paramToString(params.class_id) + '/' +
+            this.paramToString(params.daytime_id);
 
-        const response = await this.miniGet<Response>('https://www.fitnessfirst.de/kurse/kursplan/search?' + q);
+        const response = await this.miniGet<Response>(url);
 
         // Kinderschwimmen @ Gendarmenmarkt
         if (params.club_id === '0115' && (params.category_id === '431' || !params.category_id)) {
@@ -128,13 +127,13 @@ export default class FitnessFirstIcalProxy {
         if (typeof value === 'string') {
             return value;
         }
-        if(typeof value === 'undefined') {
-            return '';
+        if(typeof value === 'undefined' || value.length === 0) {
+            return 'all';
         }
 
         return value
             .map(v => v.toString())
-            .join(',');
+            .join('-');
     }
 
     static async miniGet<T>(url: string): Promise<T> {
