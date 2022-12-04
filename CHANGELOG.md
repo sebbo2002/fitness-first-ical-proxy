@@ -1,3 +1,10 @@
+## [2.0.4-develop.2](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v2.0.4-develop.1...v2.0.4-develop.2) (2022-12-04)
+
+
+### Bug Fixes
+
+* Add @types/node to fix AbortSignal issue while building ([a4aea9b](https://github.com/sebbo2002/fitness-first-ical-proxy/commit/a4aea9bd7456df1f248fe646a45ad6902fb2b819))
+
 ## [2.0.4-develop.1](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v2.0.3...v2.0.4-develop.1) (2022-11-13)
 
 
