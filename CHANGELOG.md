@@ -1,3 +1,19 @@
+## [2.0.4-develop.3](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v2.0.4-develop.2...v2.0.4-develop.3) (2022-12-11)
+
+## [2.0.4-develop.2](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v2.0.4-develop.1...v2.0.4-develop.2) (2022-12-04)
+
+
+### Bug Fixes
+
+* Add @types/node to fix AbortSignal issue while building ([a4aea9b](https://github.com/sebbo2002/fitness-first-ical-proxy/commit/a4aea9bd7456df1f248fe646a45ad6902fb2b819))
+
+## [2.0.4-develop.1](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v2.0.3...v2.0.4-develop.1) (2022-11-13)
+
+
+### Bug Fixes
+
+* Update script to work with latest backend changes ([acb1973](https://github.com/sebbo2002/fitness-first-ical-proxy/commit/acb1973047834bf542cbac1cc4db4e1c16e07546))
+
 ## [2.0.3](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v2.0.2...v2.0.3) (2022-11-02)
 
 ## [2.0.3-develop.3](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v2.0.3-develop.2...v2.0.3-develop.3) (2022-11-02)
