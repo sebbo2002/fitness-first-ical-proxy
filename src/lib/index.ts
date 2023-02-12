@@ -1,7 +1,7 @@
 import { get } from 'https';
-import { stringify } from 'querystring';
-import { RequestParams, Response, ResponseClasses } from './types';
-import ical, { ICalCalendar } from 'ical-generator';
+import { RequestParams, Response, ResponseClasses, ResponseCourse } from './types.js';
+import type { ICalCalendar } from 'ical-generator';
+import ical from 'ical-generator';
 
 export default class FitnessFirstIcalProxy {
     static async request(params: RequestParams): Promise<ICalCalendar> {
@@ -86,7 +86,7 @@ export default class FitnessFirstIcalProxy {
     }
 
     static createCalendar(courses: ResponseClasses): ICalCalendar {
-        const cal = ical({
+        const cal = ical.default({
             name: 'Fitness First',
             ttl: 60 * 60 * 6,
             prodId: {
@@ -99,7 +99,7 @@ export default class FitnessFirstIcalProxy {
             const day = key.split('_')[0];
 
             (Array.isArray(classes) ? classes : Object.values(classes)).forEach(courses => {
-                courses.forEach(course => {
+                courses.forEach((course: ResponseCourse) => {
                     if (course.is_cancelled) {
                         return;
                     }
