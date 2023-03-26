@@ -86,7 +86,7 @@ export default class FitnessFirstIcalProxy {
     }
 
     static createCalendar(courses: ResponseClasses): ICalCalendar {
-        const cal = ical.default({
+        const cal = ical({
             name: 'Fitness First',
             ttl: 60 * 60 * 6,
             prodId: {

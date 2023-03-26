@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "express": "^4.18.2",
-    "ical-generator": "^3.6.1"
+    "ical-generator": "^4.0.0-develop.2"
   },
   "description": "Small proxy that provides the course schedule from fitnessfirst.de/kurse as an iCal calendar.",
   "devDependencies": {
@@ -34,25 +34,31 @@
     "semantic-release-license": "^1.0.3",
     "source-map-support": "^0.5.21",
     "ts-node": "^10.9.1",
+    "tsup": "^6.7.0",
     "typedoc": "^0.23.26",
     "typescript": "^4.9.5"
   },
   "engines": {
     "node": "^14.8.0 || >=16.0.0"
   },
-  "exports": "./dist/index.js",
+  "exports": {
+    "import": "./dist/lib/index.mjs",
+    "require": "./dist/lib/index.js"
+  },
+  "module": "./dist/lib/index.mjs",
   "files": [
     "/dist"
   ],
   "homepage": "https://github.com/sebbo2002/fitness-first-ical-proxy#readme",
   "license": "MIT",
   "name": "@sebbo2002/fitness-first-ical-proxy",
+  "main": "./dist/lib/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sebbo2002/fitness-first-ical-proxy.git"
   },
   "scripts": {
-    "build": "tsc && chmod +x ./dist/bin/*.js",
+    "build": "tsup && cp ./dist/lib/index.d.ts ./dist/lib/index.d.mts",
     "build-all": "./.github/workflows/build.sh",
     "coverage": "c8 mocha",
     "develop": "ts-node ./src/bin/start.ts",
@@ -61,6 +67,5 @@
     "start": "node ./dist/bin/start.js",
     "test": "mocha"
   },
-  "type": "module",
   "version": "1.0.0-test.1"
 }
