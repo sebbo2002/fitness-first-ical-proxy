@@ -1,6 +1,6 @@
 'use strict';
 
-import FitnessFirstIcalProxy from '../../src/lib';
+import FitnessFirstIcalProxy from '../../src/lib/index.js';
 import assert from 'assert';
 
 describe('FitnessFirstIcalProxy', function () {
