@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2023-02-08T20:31:59.817Z",
-    "end": "2023-02-08T20:32:00.840Z",
-    "duration": 1023,
+    "start": "2023-03-31T19:04:17.339Z",
+    "end": "2023-03-31T19:04:18.212Z",
+    "duration": 873,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "f097769a-6321-4a8e-91cc-b75de185fb4d",
+      "uuid": "faf7aa46-48b1-43bd-9e61-b28e05a0a9b2",
       "title": "",
       "fullFile": "/home/runner/work/fitness-first-ical-proxy/fitness-first-ical-proxy/test/lib/index.ts",
       "file": "/test/lib/index.ts",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "8d036e37-93af-4cb6-898d-e05e07afd079",
+          "uuid": "c0328dd2-a104-41ce-94d8-733090412ade",
           "title": "FitnessFirstIcalProxy",
           "fullFile": "/home/runner/work/fitness-first-ical-proxy/fitness-first-ical-proxy/test/lib/index.ts",
           "file": "/test/lib/index.ts",
@@ -36,7 +36,7 @@
           "tests": [],
           "suites": [
             {
-              "uuid": "1b617f31-2c54-459e-9f36-ba72362d4992",
+              "uuid": "9bff52f4-d5b3-4f59-b913-9a8565360362",
               "title": "request()",
               "fullFile": "/home/runner/work/fitness-first-ical-proxy/fitness-first-ical-proxy/test/lib/index.ts",
               "file": "/test/lib/index.ts",
@@ -47,7 +47,7 @@
                   "title": "should work without error",
                   "fullTitle": "FitnessFirstIcalProxy request() should work without error",
                   "timedOut": false,
-                  "duration": 1017,
+                  "duration": 868,
                   "state": "passed",
                   "speed": "slow",
                   "pass": true,
@@ -56,20 +56,20 @@
                   "context": null,
                   "code": "return __awaiter(this, void 0, void 0, function* () {\n    const calendar = yield FitnessFirstIcalProxy.request({\n        club_id: '0115',\n        category_id: '431'\n    });\n    assert.ok(calendar.length() > 0);\n});",
                   "err": {},
-                  "uuid": "e65ae19b-28bf-4910-bebd-acf668fd0bfc",
-                  "parentUUID": "1b617f31-2c54-459e-9f36-ba72362d4992",
+                  "uuid": "9c2d78bf-2256-4e33-b36b-8fb61646ac1e",
+                  "parentUUID": "9bff52f4-d5b3-4f59-b913-9a8565360362",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "e65ae19b-28bf-4910-bebd-acf668fd0bfc"
+                "9c2d78bf-2256-4e33-b36b-8fb61646ac1e"
               ],
               "failures": [],
               "pending": [],
               "skipped": [],
-              "duration": 1017,
+              "duration": 868,
               "root": false,
               "rootEmpty": false,
               "_timeout": 10000
