@@ -1,3 +1,17 @@
+# [4.0.0-develop.1](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v3.0.2-develop.1...v4.0.0-develop.1) (2023-06-14)
+
+
+### Build System
+
+* Deprecate node.js v14 / v17 ([7a2de45](https://github.com/sebbo2002/fitness-first-ical-proxy/commit/7a2de45c12f19a1ec441b3a004f4aa935efc197c))
+
+
+### BREAKING CHANGES
+
+* The node.js versions v14 and v17 are no longer maintained and are therefore no longer supported. See https://nodejs.dev/en/about/releases/ for more details on node.js release cycles.
+
+## [3.0.2-develop.1](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v3.0.1...v3.0.2-develop.1) (2023-06-02)
+
 ## [3.0.1](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v3.0.0...v3.0.1) (2023-05-22)
 
 ## [3.0.1-develop.2](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v3.0.1-develop.1...v3.0.1-develop.2) (2023-05-11)
