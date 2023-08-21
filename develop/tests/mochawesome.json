@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2023-07-19T10:22:03.267Z",
-    "end": "2023-07-19T10:22:04.108Z",
-    "duration": 841,
+    "start": "2023-08-21T14:37:23.190Z",
+    "end": "2023-08-21T14:37:24.154Z",
+    "duration": 964,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "602c8be2-fa6e-4fc6-b4e9-750d5c22f8e3",
+      "uuid": "0a2f2d94-bc44-4f94-b5ff-716950d49645",
       "title": "",
       "fullFile": "/home/runner/work/fitness-first-ical-proxy/fitness-first-ical-proxy/test/lib/index.ts",
       "file": "/test/lib/index.ts",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "243f3a33-e391-4504-88b7-60398e0ff4b0",
+          "uuid": "2a6be251-5e5e-46ec-94a9-12e339349be6",
           "title": "FitnessFirstIcalProxy",
           "fullFile": "/home/runner/work/fitness-first-ical-proxy/fitness-first-ical-proxy/test/lib/index.ts",
           "file": "/test/lib/index.ts",
@@ -36,7 +36,7 @@
           "tests": [],
           "suites": [
             {
-              "uuid": "d3649e10-5f58-4e74-ab85-674d943d65b8",
+              "uuid": "5b3ae3ff-37c0-4599-9a3a-28e39bce9eac",
               "title": "request()",
               "fullFile": "/home/runner/work/fitness-first-ical-proxy/fitness-first-ical-proxy/test/lib/index.ts",
               "file": "/test/lib/index.ts",
@@ -47,29 +47,29 @@
                   "title": "should work without error",
                   "fullTitle": "FitnessFirstIcalProxy request() should work without error",
                   "timedOut": false,
-                  "duration": 835,
+                  "duration": 956,
                   "state": "passed",
                   "speed": "slow",
                   "pass": true,
                   "fail": false,
                   "pending": false,
                   "context": null,
-                  "code": "return __awaiter(this, void 0, void 0, function* () {\n    const calendar = yield FitnessFirstIcalProxy.request({\n        club_id: '0115',\n        category_id: '431'\n    });\n    assert.ok(calendar.length() > 0);\n});",
+                  "code": "return __awaiter(this, void 0, void 0, function* () {\n    const calendar = yield FitnessFirstIcalProxy.request({\n        club_id: '0115',\n        category_id: '421'\n    });\n    assert.ok(calendar.length() > 0);\n});",
                   "err": {},
-                  "uuid": "8d0fe9a5-e94e-4fcc-8360-16de54998667",
-                  "parentUUID": "d3649e10-5f58-4e74-ab85-674d943d65b8",
+                  "uuid": "4b9a3974-07c7-4ace-98d1-3284307cb4a1",
+                  "parentUUID": "5b3ae3ff-37c0-4599-9a3a-28e39bce9eac",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "8d0fe9a5-e94e-4fcc-8360-16de54998667"
+                "4b9a3974-07c7-4ace-98d1-3284307cb4a1"
               ],
               "failures": [],
               "pending": [],
               "skipped": [],
-              "duration": 835,
+              "duration": 956,
               "root": false,
               "rootEmpty": false,
               "_timeout": 10000
