@@ -10,7 +10,7 @@ describe('FitnessFirstIcalProxy', function () {
         it('should work without error', async function () {
             const calendar = await FitnessFirstIcalProxy.request({
                 club_id: '0115',
-                class_id: '1076'
+                category_id: '421'
             });
 
             assert.ok(calendar.length() > 0);
