@@ -24,7 +24,7 @@
     "@typescript-eslint/eslint-plugin": "^6.4.1",
     "@typescript-eslint/parser": "^6.4.1",
     "c8": "^8.0.1",
-    "eslint": "^8.47.0",
+    "eslint": "^8.48.0",
     "eslint-plugin-jsonc": "^2.9.0",
     "esm": "^3.2.25",
     "license-checker": "^25.0.1",
