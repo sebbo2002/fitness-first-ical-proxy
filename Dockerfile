@@ -3,7 +3,7 @@ FROM node:lts-alpine@sha256:60ef0bed1dc2ec835cfe3c4226d074fdfaba571fd619c280474c
 WORKDIR "/app"
 
 COPY package*.json "/app/"
-RUN npm ci
+RUN npm ci --verbose
 
 COPY . "/app/"
 RUN npm run build && \
