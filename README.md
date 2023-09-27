@@ -1,47 +1,20 @@
-# template
+# fitness-first-ical-proxy
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
 
-Here would be a very short description of the project. So in this example it would be a short information that this is
-a template that I use to start new projects and services.
-
-
-## 🚨 Template Usage Checklist
-- [ ] Update project name in `package.json`
-- [ ] Create `main` and `develop` branches
-- [ ] Set `develop` as default branch
-- [ ] Create Docker Repository
-    - [ ] Add Repository Description
-    - [ ] Add secret: `DOCKERHUB_TOKEN`
-- [ ] Create npm Repository with `npm publish --access public`
-    - [ ] Add secret: `NPM_TOKEN`
-- [ ] Go through repo settings
+Small proxy that provides the course schedule from fitnessfirst.de/kurse as an iCal calendar. Using the filters that are also available on the website, the schedule can also be filtered, for example, to deliver only all aqua courses.
 
 
 ## 📦 Installation
 
-	git clone https://github.com/sebbo2002/template.git
-    cd ./template
+	npm i -g @sebbo2002/fitness-fitst-ical-proxy
+    fitness-first-ical-proxy
 
-    npm install
+## 📑 Example
 
-
-## ⚡️ Quick Start
-
-This is where it would normally say how to use the project.
-This could be a code example for a library or instructions on how to use a CLI tool.
-
-
-## 📑 API-Reference
-
-Is there an API that needs to be documented? Then here would be a nice place for it. If there is external documentation,
-you can link it here ([example](https://github.com/sebbo2002/ical-generator/#-api-reference)).
-
-
-## 🙋 FAQ
-
-### What's `1` + `2`
-It's `3` 🎉
+```
+http://localhost:8080/ical?club_id=0024&category_id=436
+```
 
 
 ## 🙆🏼‍♂️ Copyright and license
