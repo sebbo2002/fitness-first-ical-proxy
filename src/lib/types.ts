@@ -5,10 +5,6 @@ export interface RequestParams {
     daytime_id?: string | string[];
 }
 
-export interface Response {
-    data: ResponseData;
-}
-
 export interface ResponseData {
     classes: ResponseClasses;
 }
@@ -26,11 +22,8 @@ export interface ResponseCourse {
     title: string;
     time: ResponseCourseTime;
     category: string;
-    level: string;
     club: string;
     url: string | null;
-    is_cancelled: boolean;
-    is_changed: boolean;
 }
 
 export interface ResponseCourseTime {
