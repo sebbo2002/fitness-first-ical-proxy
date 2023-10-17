@@ -1,3 +1,15 @@
+# [5.0.0-develop.1](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v4.0.2-develop.3...v5.0.0-develop.1) (2023-10-17)
+
+
+### Features
+
+* Move to new Backend ([c1be6da](https://github.com/sebbo2002/fitness-first-ical-proxy/commit/c1be6da6ed5fae5a220df8ba95f2f1f1f2afa2b5))
+
+
+### BREAKING CHANGES
+
+* This commit adjusts the API to the current API used on the website. The parameters to specify, such as `club_id` or `category_id` may have changed. Also, as of now, only node.js v18 and above is supported, as [`fetch()`](https://nodejs.org/api/globals.html#fetch) is now used.
+
 ## [4.0.2-develop.3](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v4.0.2-develop.2...v4.0.2-develop.3) (2023-08-24)
 
 ## [4.0.2-develop.2](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v4.0.2-develop.1...v4.0.2-develop.2) (2023-08-23)
