@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage lines-valid="69" lines-covered="64" line-rate="0.9275" branches-valid="13" branches-covered="11" branch-rate="0.8461" timestamp="1697565994491" complexity="0" version="0.1">
+<coverage lines-valid="69" lines-covered="64" line-rate="0.9275" branches-valid="13" branches-covered="11" branch-rate="0.8461" timestamp="1697568093158" complexity="0" version="0.1">
   <sources>
     <source>/home/runner/work/fitness-first-ical-proxy/fitness-first-ical-proxy</source>
   </sources>
