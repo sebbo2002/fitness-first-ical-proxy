@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage lines-valid="69" lines-covered="64" line-rate="0.9275" branches-valid="13" branches-covered="11" branch-rate="0.8461" timestamp="1697623286872" complexity="0" version="0.1">
+<coverage lines-valid="69" lines-covered="64" line-rate="0.9275" branches-valid="13" branches-covered="11" branch-rate="0.8461" timestamp="1699282782347" complexity="0" version="0.1">
   <sources>
     <source>/home/runner/work/fitness-first-ical-proxy/fitness-first-ical-proxy</source>
   </sources>
@@ -67,20 +67,20 @@
             <line number="34" hits="7" branch="false"/>
             <line number="35" hits="7" branch="false"/>
             <line number="36" hits="7" branch="true" condition-coverage="100% (3/3)"/>
-            <line number="37" hits="5" branch="true" condition-coverage="100% (1/1)"/>
-            <line number="38" hits="10" branch="false"/>
-            <line number="39" hits="10" branch="false"/>
-            <line number="40" hits="10" branch="false"/>
-            <line number="41" hits="10" branch="false"/>
-            <line number="42" hits="10" branch="false"/>
-            <line number="43" hits="10" branch="false"/>
-            <line number="44" hits="10" branch="false"/>
-            <line number="45" hits="10" branch="false"/>
-            <line number="46" hits="10" branch="false"/>
-            <line number="47" hits="10" branch="false"/>
-            <line number="48" hits="10" branch="false"/>
-            <line number="49" hits="10" branch="false"/>
-            <line number="50" hits="5" branch="false"/>
+            <line number="37" hits="7" branch="true" condition-coverage="100% (1/1)"/>
+            <line number="38" hits="14" branch="false"/>
+            <line number="39" hits="14" branch="false"/>
+            <line number="40" hits="14" branch="false"/>
+            <line number="41" hits="14" branch="false"/>
+            <line number="42" hits="14" branch="false"/>
+            <line number="43" hits="14" branch="false"/>
+            <line number="44" hits="14" branch="false"/>
+            <line number="45" hits="14" branch="false"/>
+            <line number="46" hits="14" branch="false"/>
+            <line number="47" hits="14" branch="false"/>
+            <line number="48" hits="14" branch="false"/>
+            <line number="49" hits="14" branch="false"/>
+            <line number="50" hits="7" branch="false"/>
             <line number="51" hits="7" branch="false"/>
             <line number="52" hits="1" branch="false"/>
             <line number="53" hits="1" branch="false"/>
