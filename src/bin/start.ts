@@ -31,7 +31,14 @@ class AppServer {
 
         this.app.get('/ical', (req, res) => {
             FitnessFirstIcalProxy.request(req.query)
-                .then(calendar => calendar.serve(res));
+                .then(calendar => {
+                    res.writeHead(200, {
+                        'Content-Type': 'text/calendar; charset=utf-8',
+                        'Content-Disposition': 'attachment; filename="calendar.ics"'
+                    });
+
+                    res.end(calendar.toString());
+                });
         });
     }
 
