@@ -17,6 +17,61 @@ export default class FitnessFirstIcalProxy {
 
         const res = await fetch(url);
         const response = await res.json() as ResponseData;
+
+        // Kinderschwimmen @ Gendarmenmarkt
+        if (params.club_id === '96' && (params.category_id === 'aqua' || !params.category_id)) {
+            Object.entries(response.classes).forEach(([key, classes]) => {
+                if (key.split('_', 2)[1] === 'sa') {
+                    const event = {
+                        id: `kinderschwimmen-${key}`,
+                        title: 'Kinderschwimmen',
+                        time: {
+                            from: '09:00:00',
+                            to: '12:15:00'
+                        },
+                        category: 'Aqua',
+                        club: 'Berlin - Gendarmenmarkt',
+                        url: 'https://www.fitnessfirst.de/news/kinderschwimmen-1635593849'
+                    };
+
+                    if (Array.isArray(classes)) {
+                        response.classes[key] = {
+                            before_noon: [
+                                event
+                            ]
+                        };
+                    } else {
+                        classes.before_noon = classes.before_noon || [];
+                        classes.before_noon.push(event);
+                    }
+                }
+                if (key.split('_', 2)[1] === 'th') {
+                    const event = {
+                        id: `kinderschwimmen-${key}`,
+                        title: 'Kinderschwimmen',
+                        time: {
+                            from: '15:00:00',
+                            to: '17:15:00'
+                        },
+                        category: 'Aqua',
+                        club: 'Berlin - Gendarmenmarkt',
+                        url: 'https://www.fitnessfirst.de/news/kinderschwimmen-1635593849'
+                    };
+
+                    if (Array.isArray(classes)) {
+                        response.classes[key] = {
+                            before_noon: [
+                                event
+                            ]
+                        };
+                    } else {
+                        classes.before_noon = classes.before_noon || [];
+                        classes.before_noon.push(event);
+                    }
+                }
+            });
+        }
+
         return response.classes;
     }
 
