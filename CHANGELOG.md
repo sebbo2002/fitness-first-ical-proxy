@@ -1,3 +1,35 @@
+# [5.0.0-develop.3](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v5.0.0-develop.2...v5.0.0-develop.3) (2023-10-18)
+
+
+### Reverts
+
+* Revert "ci: Run tests with node.js v18, v20 and v21" ([1b245a5](https://github.com/sebbo2002/fitness-first-ical-proxy/commit/1b245a58587bc6871e8b1633beff1f1bca05970f))
+
+# [5.0.0-develop.2](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v5.0.0-develop.1...v5.0.0-develop.2) (2023-10-17)
+
+# [5.0.0-develop.1](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v4.0.2-develop.3...v5.0.0-develop.1) (2023-10-17)
+
+
+### Features
+
+* Move to new Backend ([c1be6da](https://github.com/sebbo2002/fitness-first-ical-proxy/commit/c1be6da6ed5fae5a220df8ba95f2f1f1f2afa2b5))
+
+
+### BREAKING CHANGES
+
+* This commit adjusts the API to the current API used on the website. The parameters to specify, such as `club_id` or `category_id` may have changed. Also, as of now, only node.js v18 and above is supported, as [`fetch()`](https://nodejs.org/api/globals.html#fetch) is now used.
+
+## [4.0.2-develop.3](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v4.0.2-develop.2...v4.0.2-develop.3) (2023-08-24)
+
+## [4.0.2-develop.2](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v4.0.2-develop.1...v4.0.2-develop.2) (2023-08-23)
+
+
+### Reverts
+
+* Revert "ci: Downgrade is-semantic-release till it's fixed" ([91c2ab5](https://github.com/sebbo2002/fitness-first-ical-proxy/commit/91c2ab59d0559a060c11d07973382c465dd3345d))
+
+## [4.0.2-develop.1](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v4.0.1...v4.0.2-develop.1) (2023-08-21)
+
 ## [4.0.1](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v4.0.0...v4.0.1) (2023-07-19)
 
 ## [4.0.1-develop.3](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v4.0.1-develop.2...v4.0.1-develop.3) (2023-07-19)

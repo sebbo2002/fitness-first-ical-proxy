@@ -1,5 +1,4 @@
-import { get } from 'https';
-import { RequestParams, Response, ResponseClasses, ResponseCourse } from './types.js';
+import { RequestParams, ResponseClasses, ResponseCourse, ResponseData } from './types.js';
 import type { ICalCalendar } from 'ical-generator';
 import ical from 'ical-generator';
 
@@ -10,17 +9,18 @@ export default class FitnessFirstIcalProxy {
     }
 
     static async getCourses(params: RequestParams): Promise<ResponseClasses> {
-        const url = 'https://www.fitnessfirst.de/kurse/kursplan/search/' +
+        const url = 'https://www.fitnessfirst.de/magicline/api/class-shedule/' +
             this.paramToString(params.club_id) + '/' +
             this.paramToString(params.category_id) + '/' +
             this.paramToString(params.class_id) + '/' +
             this.paramToString(params.daytime_id);
 
-        const response = await this.miniGet<Response>(url);
+        const res = await fetch(url);
+        const response = await res.json() as ResponseData;
 
         // Kinderschwimmen @ Gendarmenmarkt
-        if (params.club_id === '0115' && (params.category_id === '431' || !params.category_id)) {
-            Object.entries(response.data.classes).forEach(([key, classes]) => {
+        if (params.club_id === '96' && (params.category_id === 'aqua' || !params.category_id)) {
+            Object.entries(response.classes).forEach(([key, classes]) => {
                 if (key.split('_', 2)[1] === 'sa') {
                     const event = {
                         id: `kinderschwimmen-${key}`,
@@ -30,17 +30,12 @@ export default class FitnessFirstIcalProxy {
                             to: '12:15:00'
                         },
                         category: 'Aqua',
-                        categoryIcon: 'https://www.fitnessfirst.de/sites/g/files/tbchtk201/files/2020-10/fitness-first-kurse-special.png',
-                        level: 'Alle',
                         club: 'Berlin - Gendarmenmarkt',
-                        url: 'https://www.fitnessfirst.de/news/kinderschwimmen-1635593849',
-                        calendarUrl: null,
-                        is_cancelled: false,
-                        is_changed: false
+                        url: 'https://www.fitnessfirst.de/news/kinderschwimmen-1635593849'
                     };
 
                     if (Array.isArray(classes)) {
-                        response.data.classes[key] = {
+                        response.classes[key] = {
                             before_noon: [
                                 event
                             ]
@@ -56,20 +51,15 @@ export default class FitnessFirstIcalProxy {
                         title: 'Kinderschwimmen',
                         time: {
                             from: '15:00:00',
-                            to: '16:30:00'
+                            to: '17:15:00'
                         },
                         category: 'Aqua',
-                        categoryIcon: 'https://www.fitnessfirst.de/sites/g/files/tbchtk201/files/2020-10/fitness-first-kurse-special.png',
-                        level: 'Alle',
                         club: 'Berlin - Gendarmenmarkt',
-                        url: 'https://www.fitnessfirst.de/news/kinderschwimmen-1635593849',
-                        calendarUrl: null,
-                        is_cancelled: false,
-                        is_changed: false
+                        url: 'https://www.fitnessfirst.de/news/kinderschwimmen-1635593849'
                     };
 
                     if (Array.isArray(classes)) {
-                        response.data.classes[key] = {
+                        response.classes[key] = {
                             before_noon: [
                                 event
                             ]
@@ -82,7 +72,7 @@ export default class FitnessFirstIcalProxy {
             });
         }
 
-        return response.data.classes;
+        return response.classes;
     }
 
     static createCalendar(courses: ResponseClasses): ICalCalendar {
@@ -100,10 +90,6 @@ export default class FitnessFirstIcalProxy {
 
             (Array.isArray(classes) ? classes : Object.values(classes)).forEach(courses => {
                 courses.forEach((course: ResponseCourse) => {
-                    if (course.is_cancelled) {
-                        return;
-                    }
-
                     const start = new Date(day + 'T' + course.time.from + 'Z');
                     const end = new Date(day + 'T' + course.time.to + 'Z');
 
@@ -134,30 +120,5 @@ export default class FitnessFirstIcalProxy {
         return value
             .map(v => v.toString())
             .join('-');
-    }
-
-    static async miniGet<T>(url: string): Promise<T> {
-        return new Promise((resolve, reject) => {
-            get(url, res => {
-                const data: Uint8Array[] = [];
-
-                res.on('data', chunk => {
-                    data.push(chunk);
-                });
-
-                res.on('end', () => {
-                    const text = String(Buffer.concat(data));
-                    if (res.statusCode !== 200) {
-                        reject(new Error('Unable to get data: ' + text));
-                        return;
-                    }
-
-                    const json = JSON.parse(text) as T;
-                    resolve(json);
-                });
-            }).on('error', err => {
-                reject(err);
-            });
-        });
     }
 }

@@ -1,7 +1,7 @@
 'use strict';
 
 import FitnessFirstIcalProxy from '../../src/lib/index.js';
-import assert from 'assert';
+import * as assert from 'assert';
 
 describe('FitnessFirstIcalProxy', function () {
     this.timeout(1000 * 10);
@@ -9,8 +9,8 @@ describe('FitnessFirstIcalProxy', function () {
     describe('request()', function() {
         it('should work without error', async function () {
             const calendar = await FitnessFirstIcalProxy.request({
-                club_id: '0115',
-                category_id: '431'
+                club_id: '96',
+                category_id: 'aqua'
             });
 
             assert.ok(calendar.length() > 0);
