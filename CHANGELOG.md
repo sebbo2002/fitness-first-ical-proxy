@@ -1,3 +1,22 @@
+# [5.0.0](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v4.0.1...v5.0.0) (2023-11-23)
+
+
+### Features
+
+* Add Kinderschwimmen @ Gendarmenmarkt (again) ([89b1e3c](https://github.com/sebbo2002/fitness-first-ical-proxy/commit/89b1e3cfe1092e27cbe6d2fd9e4600fb327c0728))
+* Move to new Backend ([c1be6da](https://github.com/sebbo2002/fitness-first-ical-proxy/commit/c1be6da6ed5fae5a220df8ba95f2f1f1f2afa2b5))
+
+
+### Reverts
+
+* Revert "ci: Run tests with node.js v18, v20 and v21" ([405853b](https://github.com/sebbo2002/fitness-first-ical-proxy/commit/405853bbd7fc55eb224ff657af7dab26f9482d88))
+* Revert "ci: Downgrade is-semantic-release till it's fixed" ([91c2ab5](https://github.com/sebbo2002/fitness-first-ical-proxy/commit/91c2ab59d0559a060c11d07973382c465dd3345d))
+
+
+### BREAKING CHANGES
+
+* This commit adjusts the API to the current API used on the website. The parameters to specify, such as `club_id` or `category_id` may have changed. Also, as of now, only node.js v18 and above is supported, as [`fetch()`](https://nodejs.org/api/globals.html#fetch) is now used.
+
 # [5.0.0-develop.3](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v5.0.0-develop.2...v5.0.0-develop.3) (2023-10-18)
 
 
