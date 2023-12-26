@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage lines-valid="124" lines-covered="113" line-rate="0.9112" branches-valid="19" branches-covered="14" branch-rate="0.7368000000000001" timestamp="1702974207924" complexity="0" version="0.1">
+<coverage lines-valid="124" lines-covered="113" line-rate="0.9112" branches-valid="19" branches-covered="14" branch-rate="0.7368000000000001" timestamp="1703616220607" complexity="0" version="0.1">
   <sources>
     <source>/home/runner/work/fitness-first-ical-proxy/fitness-first-ical-proxy</source>
   </sources>
@@ -122,20 +122,20 @@
             <line number="89" hits="7" branch="false"/>
             <line number="90" hits="7" branch="false"/>
             <line number="91" hits="7" branch="true" condition-coverage="100% (3/3)"/>
-            <line number="92" hits="9" branch="true" condition-coverage="100% (1/1)"/>
-            <line number="93" hits="15" branch="false"/>
-            <line number="94" hits="15" branch="false"/>
-            <line number="95" hits="15" branch="false"/>
-            <line number="96" hits="15" branch="false"/>
-            <line number="97" hits="15" branch="false"/>
-            <line number="98" hits="15" branch="false"/>
-            <line number="99" hits="15" branch="false"/>
-            <line number="100" hits="15" branch="false"/>
-            <line number="101" hits="15" branch="false"/>
-            <line number="102" hits="15" branch="false"/>
-            <line number="103" hits="15" branch="false"/>
-            <line number="104" hits="15" branch="false"/>
-            <line number="105" hits="9" branch="false"/>
+            <line number="92" hits="6" branch="true" condition-coverage="100% (1/1)"/>
+            <line number="93" hits="10" branch="false"/>
+            <line number="94" hits="10" branch="false"/>
+            <line number="95" hits="10" branch="false"/>
+            <line number="96" hits="10" branch="false"/>
+            <line number="97" hits="10" branch="false"/>
+            <line number="98" hits="10" branch="false"/>
+            <line number="99" hits="10" branch="false"/>
+            <line number="100" hits="10" branch="false"/>
+            <line number="101" hits="10" branch="false"/>
+            <line number="102" hits="10" branch="false"/>
+            <line number="103" hits="10" branch="false"/>
+            <line number="104" hits="10" branch="false"/>
+            <line number="105" hits="6" branch="false"/>
             <line number="106" hits="7" branch="false"/>
             <line number="107" hits="1" branch="false"/>
             <line number="108" hits="1" branch="false"/>
