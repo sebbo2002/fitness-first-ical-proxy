@@ -1,10 +1,19 @@
 'use strict';
 
-import Magic from '../../src/lib/index.js';
-import assert from 'assert';
+import FitnessFirstIcalProxy from '../../src/lib/index.js';
+import * as assert from 'assert';
 
-describe('Example', function () {
-    it('should work with integers', function () {
-        assert.strictEqual(Magic.double(2), 4);
+describe('FitnessFirstIcalProxy', function () {
+    this.timeout(1000 * 10);
+
+    describe('request()', function() {
+        it('should work without error', async function () {
+            const calendar = await FitnessFirstIcalProxy.request({
+                club_id: '96',
+                category_id: 'aqua'
+            });
+
+            assert.ok(calendar.length() > 0);
+        });
     });
 });
