@@ -1,4 +1,9 @@
-import { RequestParams, ResponseClasses, ResponseCourse, ResponseData } from './types.js';
+import {
+    type RequestParams,
+    type ResponseClasses,
+    type ResponseCourse,
+    type ResponseData
+} from './types.js';
 import type { ICalCalendar } from 'ical-generator';
 import ical from 'ical-generator';
 
