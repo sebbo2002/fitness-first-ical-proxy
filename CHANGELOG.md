@@ -1,3 +1,5 @@
+## [6.0.1](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v6.0.0...v6.0.1) (2024-10-16)
+
 # [6.0.0](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v5.0.3...v6.0.0) (2024-08-26)
 
 
