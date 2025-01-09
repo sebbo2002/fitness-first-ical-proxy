@@ -1,3 +1,10 @@
+## [6.0.3](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v6.0.2...v6.0.3) (2025-01-09)
+
+
+### Bug Fixes
+
+* **deps:** downgrade eslint to v9.13.0 to resolve typescript-eslint issue ([d786525](https://github.com/sebbo2002/fitness-first-ical-proxy/commit/d786525f2cbf45b1df1e02020208549983a7d0c8)), closes [#10353](https://github.com/sebbo2002/fitness-first-ical-proxy/issues/10353) [typescript-eslint/typescript-eslint#10353](https://github.com/typescript-eslint/typescript-eslint/issues/10353)
+
 ## [6.0.2](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v6.0.1...v6.0.2) (2024-11-15)
 
 ## [6.0.1](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v6.0.0...v6.0.1) (2024-10-16)
