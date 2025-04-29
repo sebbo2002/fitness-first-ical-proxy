@@ -12,7 +12,7 @@
   },
   "description": "Small proxy that provides the course schedule from fitnessfirst.de/kurse as an iCal calendar.",
   "devDependencies": {
-    "@eslint/js": "^9.23.0",
+    "@eslint/js": "^9.25.0",
     "@qiwi/semantic-release-gh-pages-plugin": "^5.4.3",
     "@sebbo2002/semantic-release-docker": "^5.0.4",
     "@semantic-release/changelog": "^6.0.3",
