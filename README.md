@@ -4,10 +4,9 @@
 
 Small proxy that provides the course schedule from fitnessfirst.de/kurse as an iCal calendar. Using the filters that are also available on the website, the schedule can also be filtered, for example, to deliver only all aqua courses.
 
-
 ## 📦 Installation
 
-	npm i -g @sebbo2002/fitness-fitst-ical-proxy
+    npm i -g @sebbo2002/fitness-fitst-ical-proxy
     fitness-first-ical-proxy
 
 ## 📑 Example
@@ -15,7 +14,6 @@ Small proxy that provides the course schedule from fitnessfirst.de/kurse as an i
 ```
 http://localhost:8080/ical?club_id=0024&category_id=436
 ```
-
 
 ## 🙆🏼‍♂️ Copyright and license
 

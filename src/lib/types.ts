@@ -1,29 +1,21 @@
 export interface RequestParams {
-    club_id?: string | number[] | string[];
-    category_id?: string | number[] | string[];
-    class_id?: string | number[];
+    category_id?: number[] | string | string[];
+    class_id?: number[] | string;
+    club_id?: number[] | string | string[];
     daytime_id?: string | string[];
-}
-
-export interface ResponseData {
-    classes: ResponseClasses;
 }
 
 export interface ResponseClasses {
     [key: string]: [] | ResponseDay;
 }
 
-export interface ResponseDay {
-    [key: string]: ResponseCourse[];
-}
-
 export interface ResponseCourse {
-    id: string;
-    title: string;
-    time: ResponseCourseTime;
     category: string;
     club: string;
-    url: string | null;
+    id: string;
+    time: ResponseCourseTime;
+    title: string;
+    url: null | string;
 }
 
 export interface ResponseCourseTime {
@@ -31,3 +23,10 @@ export interface ResponseCourseTime {
     to: string;
 }
 
+export interface ResponseData {
+    classes: ResponseClasses;
+}
+
+export interface ResponseDay {
+    [key: string]: ResponseCourse[];
+}
