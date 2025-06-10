@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2025-06-05T20:00:35.819Z",
-    "end": "2025-06-05T20:00:36.244Z",
-    "duration": 425,
+    "start": "2025-06-10T19:57:19.834Z",
+    "end": "2025-06-10T19:57:20.261Z",
+    "duration": 427,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "9052d9e3-bc0f-4f0e-985e-ed4b65e83364",
+      "uuid": "f4403c60-d78d-44f0-8199-e15f2d58bb16",
       "title": "",
       "fullFile": "/home/runner/work/fitness-first-ical-proxy/fitness-first-ical-proxy/test/lib/index.ts",
       "file": "/test/lib/index.ts",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "8917599f-c717-47cf-adea-41fc82f20a8e",
+          "uuid": "c5813470-cdbf-4aaa-b94a-a875d6977b1a",
           "title": "FitnessFirstIcalProxy",
           "fullFile": "/home/runner/work/fitness-first-ical-proxy/fitness-first-ical-proxy/test/lib/index.ts",
           "file": "/test/lib/index.ts",
@@ -36,7 +36,7 @@
           "tests": [],
           "suites": [
             {
-              "uuid": "20a24fe4-9354-47f1-bab4-9d1a443dd5f1",
+              "uuid": "21a12a46-a504-4e5a-9cee-ae2d7c59b8a4",
               "title": "request()",
               "fullFile": "/home/runner/work/fitness-first-ical-proxy/fitness-first-ical-proxy/test/lib/index.ts",
               "file": "/test/lib/index.ts",
@@ -47,7 +47,7 @@
                   "title": "should work without error",
                   "fullTitle": "FitnessFirstIcalProxy request() should work without error",
                   "timedOut": false,
-                  "duration": 421,
+                  "duration": 424,
                   "state": "passed",
                   "speed": "slow",
                   "pass": true,
@@ -56,20 +56,20 @@
                   "context": null,
                   "code": "const calendar=await FitnessFirstIcalProxy.request({category_id:\"aqua\",club_id:\"96\"});assert.ok(calendar.length()>0)",
                   "err": {},
-                  "uuid": "9f0c40b2-5f0a-468a-b836-9011667fb800",
-                  "parentUUID": "20a24fe4-9354-47f1-bab4-9d1a443dd5f1",
+                  "uuid": "2a18584a-af1e-4962-bbae-b7a090315006",
+                  "parentUUID": "21a12a46-a504-4e5a-9cee-ae2d7c59b8a4",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "9f0c40b2-5f0a-468a-b836-9011667fb800"
+                "2a18584a-af1e-4962-bbae-b7a090315006"
               ],
               "failures": [],
               "pending": [],
               "skipped": [],
-              "duration": 421,
+              "duration": 424,
               "root": false,
               "rootEmpty": false,
               "_timeout": 10000
