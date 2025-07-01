@@ -1,17 +1,47 @@
 <?xml version="1.0" ?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage lines-valid="138" lines-covered="132" line-rate="0.9565" branches-valid="22" branches-covered="14" branch-rate="0.6363" timestamp="1750834067745" complexity="0" version="0.1">
+<coverage lines-valid="138" lines-covered="132" line-rate="0.9565" branches-valid="32" branches-covered="21" branch-rate="0.6562" timestamp="1751380549734" complexity="0" version="0.1">
   <sources>
     <source>/home/runner/work/fitness-first-ical-proxy/fitness-first-ical-proxy</source>
   </sources>
   <packages>
-    <package name="main" line-rate="0.9565" branch-rate="0.6363">
+    <package name="main" line-rate="0.9565" branch-rate="0.6562">
       <classes>
-        <class name="index.ts" filename="src/lib/index.ts" line-rate="0.9565" branch-rate="0.6363">
+        <class name="index.ts" filename="src/lib/index.ts" line-rate="0.9565" branch-rate="0.6562">
           <methods>
             <method name="__name" hits="1" signature="()V">
               <lines>
-                <line number="3" hits="1"/>
+                <line number="1" hits="1"/>
+              </lines>
+            </method>
+            <method name="__export" hits="1" signature="()V">
+              <lines>
+                <line number="1" hits="1"/>
+              </lines>
+            </method>
+            <method name="__copyProps" hits="2" signature="()V">
+              <lines>
+                <line number="1" hits="2"/>
+              </lines>
+            </method>
+            <method name="get" hits="2" signature="()V">
+              <lines>
+                <line number="1" hits="2"/>
+              </lines>
+            </method>
+            <method name="__toESM" hits="1" signature="()V">
+              <lines>
+                <line number="1" hits="1"/>
+              </lines>
+            </method>
+            <method name="__toCommonJS" hits="1" signature="()V">
+              <lines>
+                <line number="1" hits="1"/>
+              </lines>
+            </method>
+            <method name="default" hits="1" signature="()V">
+              <lines>
+                <line number="1" hits="1"/>
               </lines>
             </method>
             <method name="&lt;static_initializer&gt;" hits="1" signature="()V">
@@ -41,9 +71,9 @@
             </method>
           </methods>
           <lines>
-            <line number="1" hits="1" branch="false"/>
+            <line number="1" hits="1" branch="true" condition-coverage="72.72727272727273% (8/11)"/>
             <line number="2" hits="1" branch="false"/>
-            <line number="3" hits="1" branch="true" condition-coverage="100% (1/1)"/>
+            <line number="3" hits="1" branch="false"/>
             <line number="4" hits="1" branch="false"/>
             <line number="5" hits="1" branch="false"/>
             <line number="6" hits="1" branch="false"/>
@@ -69,20 +99,20 @@
             <line number="26" hits="7" branch="true" condition-coverage="0% (0/1)"/>
             <line number="27" hits="7" branch="true" condition-coverage="100% (1/1)"/>
             <line number="28" hits="21" branch="true" condition-coverage="100% (1/1)"/>
-            <line number="29" hits="18" branch="false"/>
-            <line number="30" hits="18" branch="false"/>
-            <line number="31" hits="18" branch="false"/>
-            <line number="32" hits="18" branch="false"/>
-            <line number="33" hits="18" branch="false"/>
-            <line number="34" hits="18" branch="false"/>
-            <line number="35" hits="18" branch="false"/>
-            <line number="36" hits="18" branch="false"/>
-            <line number="37" hits="18" branch="false"/>
-            <line number="38" hits="18" branch="false"/>
-            <line number="39" hits="18" branch="false"/>
-            <line number="40" hits="18" branch="false"/>
-            <line number="41" hits="18" branch="false"/>
-            <line number="42" hits="18" branch="false"/>
+            <line number="29" hits="16" branch="false"/>
+            <line number="30" hits="16" branch="false"/>
+            <line number="31" hits="16" branch="false"/>
+            <line number="32" hits="16" branch="false"/>
+            <line number="33" hits="16" branch="false"/>
+            <line number="34" hits="16" branch="false"/>
+            <line number="35" hits="16" branch="false"/>
+            <line number="36" hits="16" branch="false"/>
+            <line number="37" hits="16" branch="false"/>
+            <line number="38" hits="16" branch="false"/>
+            <line number="39" hits="16" branch="false"/>
+            <line number="40" hits="16" branch="false"/>
+            <line number="41" hits="16" branch="false"/>
+            <line number="42" hits="16" branch="false"/>
             <line number="43" hits="21" branch="false"/>
             <line number="44" hits="21" branch="false"/>
             <line number="45" hits="7" branch="false"/>
