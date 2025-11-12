@@ -4,10 +4,12 @@
 import express, { type Express } from 'express';
 import { Server } from 'http';
 
+import FitnessFirstIcalProxy from '../lib/index.js';
+
 class AppServer {
     private app: Express;
-    private server: Server;
 
+    private server: Server;
     constructor() {
         this.app = express();
 
@@ -27,14 +29,21 @@ class AppServer {
             res.send('pong');
         });
 
-        // add additional routes
+        this.app.get('/ical', (req, res) => {
+            FitnessFirstIcalProxy.request(req.query).then((calendar) => {
+                res.writeHead(200, {
+                    'Content-Disposition':
+                        'attachment; filename="calendar.ics"',
+                    'Content-Type': 'text/calendar; charset=utf-8',
+                });
+
+                res.end(calendar.toString());
+            });
+        });
     }
 
     async stop() {
         await new Promise((cb) => this.server.close(cb));
-
-        // await db.close() if we have a db connection in this app
-        // await other things we should cleanup nicely
 
         process.exit();
     }
