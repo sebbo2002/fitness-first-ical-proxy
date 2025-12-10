@@ -1,3 +1,5 @@
+## [7.0.3](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v7.0.2...v7.0.3) (2025-12-10)
+
 ## [7.0.2](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v7.0.1...v7.0.2) (2025-11-25)
 
 ## [7.0.1](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v7.0.0...v7.0.1) (2025-06-18)
