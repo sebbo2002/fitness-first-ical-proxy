@@ -1,3 +1,13 @@
+# [8.0.0](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v7.0.4...v8.0.0) (2026-04-17)
+
+### Features
+
+- Update Docker Base Image ([2ff47ce](https://github.com/sebbo2002/fitness-first-ical-proxy/commit/2ff47ce0a7c9ec5e27a8af618d73c907ccf413a1))
+
+### BREAKING CHANGES
+
+- Containers for linux/arm/v7 and linux/arm/v6 are no longer built automatically, as they are no longer available for node:lts-alpine. Please build these containers yourself if you need to. New supported platforms: linux/amd64 and linux/arm64/v8
+
 ## [7.0.4](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v7.0.3...v7.0.4) (2026-03-29)
 
 ## [7.0.3](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v7.0.2...v7.0.3) (2025-12-10)
