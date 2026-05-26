@@ -23,26 +23,24 @@ export default class FitnessFirstIcalProxy {
         Object.entries(courses).forEach(([key, classes]) => {
             const day = key.split('_')[0];
 
-            (Array.isArray(classes) ? classes : Object.values(classes)).forEach(
-                (courses) => {
-                    courses.forEach((course: ResponseCourse) => {
-                        const start = new Date(
-                            day + 'T' + course.time.from + 'Z',
-                        );
-                        const end = new Date(day + 'T' + course.time.to + 'Z');
+            const allCourses: ResponseCourse[] = Array.isArray(classes)
+                ? classes
+                : Object.values(classes).flat();
 
-                        cal.createEvent({
-                            end,
-                            floating: true,
-                            id: course.id,
-                            location: course.club,
-                            start,
-                            summary: course.title,
-                            url: course.url,
-                        });
-                    });
-                },
-            );
+            allCourses.forEach((course: ResponseCourse) => {
+                const start = new Date(day + 'T' + course.time.from + 'Z');
+                const end = new Date(day + 'T' + course.time.to + 'Z');
+
+                cal.createEvent({
+                    end,
+                    floating: true,
+                    id: course.id,
+                    location: course.club,
+                    start,
+                    summary: course.title,
+                    url: course.url,
+                });
+            });
         });
 
         return cal;
