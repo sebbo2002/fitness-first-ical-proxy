@@ -1,3 +1,19 @@
+# [9.0.0](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v8.0.0...v9.0.0) (2026-06-02)
+
+### Bug Fixes
+
+- handle flat course arrays in createCalendar ([1316746](https://github.com/sebbo2002/fitness-first-ical-proxy/commit/13167466833a4dec0959e2d3d7b7a4a70eab21f8))
+
+### Features
+
+- Drop support for node.js v20 and v23 ([d949a08](https://github.com/sebbo2002/fitness-first-ical-proxy/commit/d949a088c82ede8768c62556cfc0da9ce2255b1b))
+
+### BREAKING CHANGES
+
+- Drop node.js v20 / v23 Support
+
+This node.js version is no longer supported. For more information see https://nodejs.dev/en/about/releases/
+
 # [8.0.0](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v7.0.4...v8.0.0) (2026-04-17)
 
 ### Features
