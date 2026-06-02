@@ -6,7 +6,7 @@ export interface RequestParams {
 }
 
 export interface ResponseClasses {
-    [key: string]: [] | ResponseDay;
+    [key: string]: ResponseCourse[] | ResponseDay;
 }
 
 export interface ResponseCourse {
