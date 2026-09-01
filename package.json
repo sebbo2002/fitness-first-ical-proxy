@@ -8,7 +8,7 @@
     },
     "dependencies": {
         "express": "^5.2.1",
-        "ical-generator": "^11.1.0"
+        "ical-generator": "^11.1.1"
     },
     "description": "Small proxy that provides the course schedule from fitnessfirst.de/kurse as an iCal calendar.",
     "devDependencies": {
