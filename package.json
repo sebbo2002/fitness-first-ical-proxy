@@ -7,7 +7,7 @@
         "url": "https://github.com/sebbo2002/fitness-first-ical-proxy/issues"
     },
     "dependencies": {
-        "express": "^5.2.1",
+        "express": "^5.3.0",
         "ical-generator": "^11.1.2"
     },
     "description": "Small proxy that provides the course schedule from fitnessfirst.de/kurse as an iCal calendar.",
