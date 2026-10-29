@@ -1,3 +1,9 @@
+## [9.0.4](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v9.0.3...v9.0.4) (2026-10-29)
+
+### Bug Fixes
+
+- sync package-lock.json with package.json ([337c739](https://github.com/sebbo2002/fitness-first-ical-proxy/commit/337c739f4d9e1dbefcf52c3680cf50d5bfa67af4))
+
 ## [9.0.3](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v9.0.2...v9.0.3) (2026-09-30)
 
 ## [9.0.2](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v9.0.1...v9.0.2) (2026-08-02)
