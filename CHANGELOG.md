@@ -1,3 +1,5 @@
+## [9.0.5](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v9.0.4...v9.0.5) (2026-11-18)
+
 ## [9.0.4](https://github.com/sebbo2002/fitness-first-ical-proxy/compare/v9.0.3...v9.0.4) (2026-10-29)
 
 ### Bug Fixes
